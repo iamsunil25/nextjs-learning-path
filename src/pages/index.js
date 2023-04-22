@@ -6,7 +6,7 @@ import imgafes   from "../img/covidProjectImage.png"
 import { toast } from 'react-toastify'
 const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
-	const Show = () => toast.success('Toast is good', { hideProgressBar: true, autoClose: 2000})
+	const Show = () => toast.success('Toast is good', { hideProgressBar: true, autoClose: 2000, toastId:Date.now()})
 
   return (
     <>

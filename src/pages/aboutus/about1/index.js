@@ -1,10 +1,8 @@
-import React from 'react'
+import dynamic from 'next/dynamic'
+const AboutUs1Dynamic = dynamic(() => import('../../../components/dynamic_index'), {
+  ssr: false,
+})
 
-const Index = () => {
-  return (
+export default AboutUs1Dynamic
 
-	<div>"Sunt ullamco culpa ut consectetur aliquip ea eiusmod Lorem. Aute labore do aliqua amet quis eu. Ipsum adipisicing sint commodo sit. Officia sunt voluptate anim officia elit deserunt ut minim quis. Laboris sunt officia amet sit consequat cupidatat enim voluptate occaecat fugiat est ut." about1</div>
-  )
-}
 
-export default Index

@@ -8,6 +8,9 @@ const withImages = require('next-images');
  module.exports = {
 	experimental: {
     concurrentFeatures: true,
-  }
+  },
+    images: {
+        unoptimized: true
+    }
 }
 
